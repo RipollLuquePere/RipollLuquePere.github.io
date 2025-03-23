@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#estudis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#estudis div {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: center;
+    margin-top: 50px;
+}
+
+#llenguatges {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#llenguatges div {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: center;
+    margin-top: 50px;
+}
+
+#frameworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#frameworks div {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: center;
+    margin-top: 50px;
+}
+
+#tecnologies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#tecnologies div {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: center;
+    margin-top: 50px;
+}
+
+#experiencia ul {
+    text-align: left;
+    align-content: center;
+    justify-items: center;
+}
+#experiencia ul li {
+    width: 50%;
+}
+
+img {
+    width: auto;
+    height: 100px;
+}
+
+/* Barra de navegación */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de Introducción */
+#intro {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#intro p {
+    font-size: 18px;
+}
+
+/* Sección Sobre mí */
+#about {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Sección de Proyectos */
+#projects {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-bottom: 100px;
+}
+
+#projects h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de Contacto */
+#contact {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
